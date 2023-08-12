@@ -35,8 +35,6 @@ In the v1 directory sqlite_forensic_corpus_v1.0 you'll find:
 | overwritten               |        0C |   Deleted records                                       |
 | contents                  |        0D |   Overwritten records                                   |
 |                           |        0E |   Deleted overflow pages                                |
-|---------------------------|-----------|---------------------------------------------------------|
-
 
 In the v1 directory sqlite_forensic_corpus_v1.0 you'll find the above directories as well as the anti-forensic extension directories:
 
@@ -55,7 +53,6 @@ In the v1 directory sqlite_forensic_corpus_v1.0 you'll find the above directorie
 |                           |        18 |   Freelist trunks                                       |
 |---------------------------|-----------|---------------------------------------------------------|
 | Database size             |        19 |   Size of database files                                |
-'---------------------------'-----------'---------------------------------------------------------'
 
 ## Authors
 Sebastian Nemetz, Sven Schmitt, Felix Freiling
