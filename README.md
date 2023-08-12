@@ -1,12 +1,13 @@
 # sqlite forensic corpus
 
-There are two versions of the corpus:
-
-- v1
-- v2
+A standardized corpus for SQLite database forensics.
 
 ## More information
-See the v1 readme and v2 readme for details about the respective versions.
+See the [v1 readme](./directory sqlite_forensic_corpus_v1.0/README.txt) and [v2 readme](./directory sqlite_forensic_corpus_v2.0/README.txt) for details about the respective versions.
+
+### Related papers
+- Paper released with v1 corpus: https://www.sciencedirect.com/science/article/pii/S1742287618300471
+- Paper released with v2 corpus: https://ieeexplore.ieee.org/document/8514835
 
 ## Data source
 These files were downloaded from https://faui1-files.cs.fau.de/public/sqlite-forensic-corpus/
@@ -14,7 +15,6 @@ These files were downloaded from https://faui1-files.cs.fau.de/public/sqlite-for
 ## Directory structure
 In the v1 directory sqlite_forensic_corpus_v1.0 you'll find:
 
-.---------------------------.-----------.---------------------------------------------------------.
 | Category                  |    Folder |   Subject                                               |
 |---------------------------|-----------|---------------------------------------------------------|
 |                           |        01 |   Weird table names                                     |
@@ -37,8 +37,10 @@ In the v1 directory sqlite_forensic_corpus_v1.0 you'll find:
 |                           |        0E |   Deleted overflow pages                                |
 |---------------------------|-----------|---------------------------------------------------------|
 
+
 In the v1 directory sqlite_forensic_corpus_v1.0 you'll find the above directories as well as the anti-forensic extension directories:
-.---------------------------.-----------.---------------------------------------------------------.
+
+
 | Category                  |    Folder |   Subject                                               |
 |---------------------------|-----------|---------------------------------------------------------|
 |                           |        11 |   Root page pointers                                    |
