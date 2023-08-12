@@ -3,7 +3,8 @@
 A standardized corpus for SQLite database forensics.
 
 ## More information
-See the [v1 readme](./directory sqlite_forensic_corpus_v1.0/README.txt) and [v2 readme](./directory sqlite_forensic_corpus_v2.0/README.txt) for details about the respective versions.
+
+See the [v1 readme](sqlite_forensic_corpus_v1.0/README.txt) and [v2 readme](sqlite_forensic_corpus_v2.0/README.txt) for more info about the respective versions.
 
 ### Related papers
 - Paper released with v1 corpus: https://www.sciencedirect.com/science/article/pii/S1742287618300471
